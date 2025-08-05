@@ -1,5 +1,5 @@
-library identifier: 'jenkinsPractice@main',
-retriever: modernSCM ([$class: 'GitSCMSource', remote: 'https://github.com/gourPunit/jenkinsPractice.git'])
+library identifier: 'jenkinsSharedLibrary@main',
+retriever: modernSCM ([$class: 'GitSCMSource', remote: 'https://github.com/gourPunit/jenkinsSharedLibrary.git'])
 
 pipeline {
     agent any
